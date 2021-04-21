@@ -12,6 +12,11 @@ exports.handler = async (event) => {
             "name" : "Nike"
           },
           "name" : "Golf Air Max 270 - Black/White",
+          "navigation" : {
+            "department" : "men",
+            "category" : "mens_trainers",
+            "subcategory" : "mens_sportswear_trainers"
+          },
           "description" : "<h2>Nike&nbsp;Golf Air Max 270 Shoes</h2><p></p><strong>Size &amp; Fit</strong><br /><ul><li>Standard fit</li><li>Available in sizes: 6-12</li></ul><strong>Details</strong><br /><ul><li>End use: Golf</li><li>Men's Golf Air Max 270 G by Nike</li><li>Black/White</li><li>An exact replica of the original Air icon, the Air Max 270 features a sleek, sleeve-like upper that's waterproof too, keeping you comfy and dry till the very last hole. The foam midsole is decked with a Max Air unit to cushion every step, whilst the integrated traction pattern gives superior grip.</li><li>External heel counter stabilises your foot</li><li>Heel pull tab</li></ul><strong>Material</strong>",
           "price" : {
             "currencyCode" : "GBP",
@@ -92,6 +97,11 @@ exports.handler = async (event) => {
           "name" : ""
         },
         "name" : "Hampshire Premium Leather Corner Group Sofa",
+        "navigation" : {
+          "department" : "home",
+          "category" : "sofas",
+          "subcategory" : "furniture_seating_sofas"
+        },
         "price" : {
           "currencyCode" : "GBP",
           "current" : 1499,
