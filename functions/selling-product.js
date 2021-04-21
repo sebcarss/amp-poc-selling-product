@@ -159,7 +159,12 @@ exports.handler = async (event) => {
         "Cache-Control": "max-age=60",
         "Content-Type": "application/json",
       },
-      statusCode: 404
+      statusCode: 404,
+      body: JSON.stringify({
+        error: {
+          message: "Product does not exist"
+        }
+      })
     }
   }
 
