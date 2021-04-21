@@ -1,0 +1,15 @@
+{
+  "name": "amp-poc-selling-product",
+  "version": "1.0.0",
+  "description": "Represents the dcx selling product query microservice",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify-lambda serve functions",
+    "build": "netlify-lambda build functions"
+  },
+  "author": "Seb Carss",
+  "license": "ISC",
+  "devDependencies": {
+    "netlify-lambda": "^2.0.3"
+  }
+}
